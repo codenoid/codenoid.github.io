@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Keylogger on PAP99 - ini blog nya Rubi</title>
+    <link>/tags/keylogger/</link>
+    <description>Recent content in Keylogger on PAP99 - ini blog nya Rubi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Jul 2019 09:13:29 +0700</lastBuildDate>
+    
+	<atom:link href="/tags/keylogger/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Membuat Global KeyLogger Dengan Golang</title>
+      <link>/posts/membuat-global-keylogger-dengan-golang/</link>
+      <pubDate>Tue, 30 Jul 2019 09:13:29 +0700</pubDate>
+      
+      <guid>/posts/membuat-global-keylogger-dengan-golang/</guid>
+      <description>My Device  Linux Ubuntu 14.04  Cek Device Pastikan terdapat input keyboard, dapat di cek di ls /dev/input/event*, entah itu keyboard bluetooth maupun kabel, yang penting bisa di pakai
+Dependency Jalankan go get -u github.com/MarinX/keylogger
+Yang Akan Kita Lakukan  Basic Key Logging Kombinasi Key pada Keyboard, seperti CTRL+V, dsj  Pembahasan Dan Code package main import ( &amp;quot;fmt&amp;quot; &amp;quot;strings&amp;quot; &amp;quot;github.com/MarinX/keylogger&amp;quot; ) func main() { keyboard := keylogger.FindKeyboardDevice() // check if we found a path to keyboard if len(keyboard) &amp;lt;= 0 { fmt.</description>
+    </item>
+    
+  </channel>
+</rss>

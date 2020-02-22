@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Artikel on PAP99 - ini blog nya Rubi</title>
+    <link>/tags/artikel/</link>
+    <description>Recent content in Artikel on PAP99 - ini blog nya Rubi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Dec 2019 11:54:29 +0700</lastBuildDate>
+    
+	<atom:link href="/tags/artikel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mencoba RethinkDB untuk realtime transaction</title>
+      <link>/posts/mencoba-rethink-db/</link>
+      <pubDate>Thu, 19 Dec 2019 11:54:29 +0700</pubDate>
+      
+      <guid>/posts/mencoba-rethink-db/</guid>
+      <description>1. Installasi cukup mudah; karena saya pakai ubuntu;
+source /etc/lsb-release &amp;amp;&amp;amp; echo &amp;quot;deb https://download.rethinkdb.com/apt $DISTRIB_CODENAME main&amp;quot; | sudo tee /etc/apt/sources.list.d/rethinkdb.list wget -qO- https://download.rethinkdb.com/apt/pubkey.gpg | sudo apt-key add - sudo apt-get update sudo apt-get install rethinkdb  2. Cek Status sudo service rethinkdb status
+codenoid@pap-99:~$ sudo service rethinkdb status ● rethinkdb.service - LSB: This starts a set of rethinkdb server instances. Loaded: loaded (/etc/init.d/rethinkdb; generated) Active: active (exited) since Thu 2019-12-19 12:52:14 WIB; 12s ago Docs: man:systemd-sysv-generator(8) Tasks: 0 (limit: 4915) CGroup: /system.</description>
+    </item>
+    
+  </channel>
+</rss>

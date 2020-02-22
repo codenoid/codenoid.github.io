@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Video on PAP99 - ini blog nya Rubi</title>
+    <link>/tags/video/</link>
+    <description>Recent content in Video on PAP99 - ini blog nya Rubi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Jul 2019 09:13:29 +0700</lastBuildDate>
+    
+	<atom:link href="/tags/video/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Membuat Live Web Streaming Dengan Golang</title>
+      <link>/posts/membuat-web-streaming-dengan-golang/</link>
+      <pubDate>Tue, 30 Jul 2019 09:13:29 +0700</pubDate>
+      
+      <guid>/posts/membuat-web-streaming-dengan-golang/</guid>
+      <description>My Device  Linux Ubuntu 14.04  Perkenalan (WAJIB BACA) Melanjutkan post saya yang kemaren (JIKA BELUM MELIHAT, WAJIB MELIHAT ARTIKEL NYA), saat ini mari kita expansi dengan membuat web streaming atau live streaming dengan menggunakan Golang dan kamera kita, di harapkan dengan ini bisa kalian expansi untuk membuat CCTV, LIVE-TV, DIBERI AUGMENTED REALITY (IMAGE PROCESSING), DSJ
+Pembahasan Dan Code package main import ( &amp;quot;bytes&amp;quot; &amp;quot;fmt&amp;quot; &amp;quot;image&amp;quot; &amp;quot;image/jpeg&amp;quot; &amp;quot;log&amp;quot; &amp;quot;mime/multipart&amp;quot; &amp;quot;net/http&amp;quot; &amp;quot;net/textproto&amp;quot; &amp;quot;os&amp;quot; &amp;quot;strconv&amp;quot; &amp;quot;github.</description>
+    </item>
+    
+    <item>
+      <title>Menggunakan Kamera Dengan Golang</title>
+      <link>/posts/menggunakan-kamera-dengan-golang/</link>
+      <pubDate>Tue, 30 Jul 2019 00:15:29 +0700</pubDate>
+      
+      <guid>/posts/menggunakan-kamera-dengan-golang/</guid>
+      <description>Persiapan  Memiliki Kamera (internal/external)  Cek, apakah kamera sudah terdeteksi cek, apakah kamera sudah terdeteksi dengan ls /dev/video*, coba cabut dan colok lagi sembari cek, apakah bertambah
+saya menggunakan kamera external pada laptop yang sudah terdapat kamera, dan hasil ls saya :
+# ketika kamera external di colok $ ls /dev/video* /dev/video0 /dev/video1 /dev/video2 /dev/video3 # ketika kamera external di cabut $ ls /dev/video* /dev/video0 /dev/video1  nah, yang saya gunakan disini /dev/video2 (kamera external saya)</description>
+    </item>
+    
+  </channel>
+</rss>

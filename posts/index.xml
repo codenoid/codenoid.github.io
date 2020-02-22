@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on PAP99 - ini blog nya Rubi</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on PAP99 - ini blog nya Rubi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Feb 2020 00:13:29 +0700</lastBuildDate>
+    
+	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Panduan Mendesain Respon API</title>
+      <link>/posts/panduan-agak-lengkap-mendesain-respon-api/</link>
+      <pubDate>Fri, 21 Feb 2020 00:13:29 +0700</pubDate>
+      
+      <guid>/posts/panduan-agak-lengkap-mendesain-respon-api/</guid>
+      <description>TLDR;
+Untuk private software atau company-only code-share, kalau bisa sesimple mungkin, contoh :
+Incoming chat hanya membawa :
+[&amp;quot;Chat&amp;quot;, {&amp;quot;text&amp;quot;: &amp;quot;hello jean&amp;quot;, &amp;quot;ts&amp;quot;: 1582385032, &amp;quot;sid&amp;quot;: &amp;quot;codenoid&amp;quot;, &amp;quot;rid&amp;quot;: &amp;quot;cj2ngzdvb8nv3b&amp;quot;}]   id room (group/private) id sender text chat timestamp media (hanya kalau perlu)  ya, ASAP (as simple as possible), kalau perlu bikin separator sendiri, jangan pakai json KENAPA ???
+Kalau data yang ditransfer &amp;ldquo;simple&amp;rdquo;, maka otomatis :  Tersampaikan secara lebih cepat Mengirit server/user space Minimalisir unrelatable-data leak Parsing lebih cepat; jadi tidak strest kenaikan gaji 35% anak sudah bisa nyari makan sendiri Membantu meningkatkan ekonomi masyarakat kita  well that&amp;rsquo;s escalated quickly</description>
+    </item>
+    
+    <item>
+      <title>Mencoba RethinkDB untuk realtime transaction</title>
+      <link>/posts/mencoba-rethink-db/</link>
+      <pubDate>Thu, 19 Dec 2019 11:54:29 +0700</pubDate>
+      
+      <guid>/posts/mencoba-rethink-db/</guid>
+      <description>1. Installasi cukup mudah; karena saya pakai ubuntu;
+source /etc/lsb-release &amp;amp;&amp;amp; echo &amp;quot;deb https://download.rethinkdb.com/apt $DISTRIB_CODENAME main&amp;quot; | sudo tee /etc/apt/sources.list.d/rethinkdb.list wget -qO- https://download.rethinkdb.com/apt/pubkey.gpg | sudo apt-key add - sudo apt-get update sudo apt-get install rethinkdb  2. Cek Status sudo service rethinkdb status
+codenoid@pap-99:~$ sudo service rethinkdb status ● rethinkdb.service - LSB: This starts a set of rethinkdb server instances. Loaded: loaded (/etc/init.d/rethinkdb; generated) Active: active (exited) since Thu 2019-12-19 12:52:14 WIB; 12s ago Docs: man:systemd-sysv-generator(8) Tasks: 0 (limit: 4915) CGroup: /system.</description>
+    </item>
+    
+    <item>
+      <title>Membuat authentikasi tanpa library di flask</title>
+      <link>/posts/membuat-authentikasi-tanpa-library-di-flask/</link>
+      <pubDate>Tue, 03 Dec 2019 00:12:45 +0700</pubDate>
+      
+      <guid>/posts/membuat-authentikasi-tanpa-library-di-flask/</guid>
+      <description>Ok, sekarang kita bikin authentikasi tanpa library apapun, hanya bermodal cookie dan @before_request method
+Kode &amp;amp; Penjelasan from flask import Flask, request, redirect from flask import make_response # package ini digunakan untuk membuat random uuid # yang mana random uuid tersebut akan digunakan untuk # cookie import uuid app = Flask(__name__) # digunakan untuk menyimpan cookie yang telah login AUTH_STORAGE = {} login_view = &amp;quot;&amp;quot;&amp;quot; &amp;lt;form method=&amp;quot;post&amp;quot; action=&amp;quot;&amp;quot;&amp;gt; &amp;lt;input type=&amp;quot;text&amp;quot; name=&amp;quot;user&amp;quot;&amp;gt; &amp;lt;button type=&amp;quot;submit&amp;quot;&amp;gt;Login&amp;lt;/button&amp;gt; &amp;lt;/form&amp;gt; &amp;quot;&amp;quot;&amp;quot; index_view = &amp;quot;&amp;quot;&amp;quot; Berhasil Login !</description>
+    </item>
+    
+    <item>
+      <title>Cara deploy flask dengan gunicorn dan systemd</title>
+      <link>/posts/cara-deploy-flask-dengan-gunicorn-dan-systemd/</link>
+      <pubDate>Mon, 02 Dec 2019 00:13:29 +0700</pubDate>
+      
+      <guid>/posts/cara-deploy-flask-dengan-gunicorn-dan-systemd/</guid>
+      <description>Spesifikasi Software Saya :  Ubuntu 18.04 gunicorn==19.9.0 Flask==1.0.2 Python 3.6.8 Sublime Text (dengan shortcut subl di terminal)  Informasi tentang tech stack Gunicorn adalah ?
+The Gunicorn &amp;ldquo;Green Unicorn&amp;rdquo; is a Python Web Server Gateway Interface HTTP server. It is a pre-fork worker model, ported from Ruby&amp;rsquo;s Unicorn project. The Gunicorn server is broadly compatible with a number of web frameworks, simply implemented, light on server resources and fairly fast.</description>
+    </item>
+    
+    <item>
+      <title>Golang dan elixir sebagai bahasa pemrograman pertama saya</title>
+      <link>/posts/golang-dan-elixir-sebagai-bahasa/</link>
+      <pubDate>Thu, 15 Aug 2019 00:13:29 +0700</pubDate>
+      
+      <guid>/posts/golang-dan-elixir-sebagai-bahasa/</guid>
+      <description>So it has been a while when i first time giving try to Elixir, a language that give me joy when coding with a complex of software flow and structure, now i&amp;rsquo;m sad i don&amp;rsquo;t know why, because i play some beethoven song,
+then Go, i don&amp;rsquo;t know, Go is something like my &amp;ldquo;php&amp;rdquo; replacement, because i love php (in the past) but php doesn&amp;rsquo;t teach me about static typing, channeling, multi threading, more likely just there is controller, model and view.</description>
+    </item>
+    
+    <item>
+      <title>Komparasi Syntax Antara PHP Dengan Golang</title>
+      <link>/posts/komparasi-syntax-antara-php-dengan-golang/</link>
+      <pubDate>Thu, 01 Aug 2019 00:13:29 +0700</pubDate>
+      
+      <guid>/posts/komparasi-syntax-antara-php-dengan-golang/</guid>
+      <description>Menggunakan OS Ubuntu, disini aq akan melakukan komparasi syntax antara golang dengan php
+Installasi Golang :
+cd ~ wget https://dl.google.com/go/go1.12.7.linux-amd64.tar.gz tar -xf go1.12.7.linux-amd64.tar.gz export GOROOT=&amp;quot;/home/$USER/go&amp;quot; export GOPATH=&amp;quot;/home/$USER/go/packages&amp;quot; export PATH=$PATH:$GOROOT/bin:$GOPATH/bin # puts export line to your ~/.bashrc or any bashprofile file # please change $USER with your static username value  PHP :
+sudo apt install php7.2-cli / *  Hello World ! Golang :
+package main import &amp;quot;fmt&amp;quot; func main() { fmt.</description>
+    </item>
+    
+    <item>
+      <title>Membuat Global KeyLogger Dengan Golang</title>
+      <link>/posts/membuat-global-keylogger-dengan-golang/</link>
+      <pubDate>Tue, 30 Jul 2019 09:13:29 +0700</pubDate>
+      
+      <guid>/posts/membuat-global-keylogger-dengan-golang/</guid>
+      <description>My Device  Linux Ubuntu 14.04  Cek Device Pastikan terdapat input keyboard, dapat di cek di ls /dev/input/event*, entah itu keyboard bluetooth maupun kabel, yang penting bisa di pakai
+Dependency Jalankan go get -u github.com/MarinX/keylogger
+Yang Akan Kita Lakukan  Basic Key Logging Kombinasi Key pada Keyboard, seperti CTRL+V, dsj  Pembahasan Dan Code package main import ( &amp;quot;fmt&amp;quot; &amp;quot;strings&amp;quot; &amp;quot;github.com/MarinX/keylogger&amp;quot; ) func main() { keyboard := keylogger.FindKeyboardDevice() // check if we found a path to keyboard if len(keyboard) &amp;lt;= 0 { fmt.</description>
+    </item>
+    
+    <item>
+      <title>Membuat Live Web Streaming Dengan Golang</title>
+      <link>/posts/membuat-web-streaming-dengan-golang/</link>
+      <pubDate>Tue, 30 Jul 2019 09:13:29 +0700</pubDate>
+      
+      <guid>/posts/membuat-web-streaming-dengan-golang/</guid>
+      <description>My Device  Linux Ubuntu 14.04  Perkenalan (WAJIB BACA) Melanjutkan post saya yang kemaren (JIKA BELUM MELIHAT, WAJIB MELIHAT ARTIKEL NYA), saat ini mari kita expansi dengan membuat web streaming atau live streaming dengan menggunakan Golang dan kamera kita, di harapkan dengan ini bisa kalian expansi untuk membuat CCTV, LIVE-TV, DIBERI AUGMENTED REALITY (IMAGE PROCESSING), DSJ
+Pembahasan Dan Code package main import ( &amp;quot;bytes&amp;quot; &amp;quot;fmt&amp;quot; &amp;quot;image&amp;quot; &amp;quot;image/jpeg&amp;quot; &amp;quot;log&amp;quot; &amp;quot;mime/multipart&amp;quot; &amp;quot;net/http&amp;quot; &amp;quot;net/textproto&amp;quot; &amp;quot;os&amp;quot; &amp;quot;strconv&amp;quot; &amp;quot;github.</description>
+    </item>
+    
+    <item>
+      <title>Menggunakan Kamera Dengan Golang</title>
+      <link>/posts/menggunakan-kamera-dengan-golang/</link>
+      <pubDate>Tue, 30 Jul 2019 00:15:29 +0700</pubDate>
+      
+      <guid>/posts/menggunakan-kamera-dengan-golang/</guid>
+      <description>Persiapan  Memiliki Kamera (internal/external)  Cek, apakah kamera sudah terdeteksi cek, apakah kamera sudah terdeteksi dengan ls /dev/video*, coba cabut dan colok lagi sembari cek, apakah bertambah
+saya menggunakan kamera external pada laptop yang sudah terdapat kamera, dan hasil ls saya :
+# ketika kamera external di colok $ ls /dev/video* /dev/video0 /dev/video1 /dev/video2 /dev/video3 # ketika kamera external di cabut $ ls /dev/video* /dev/video0 /dev/video1  nah, yang saya gunakan disini /dev/video2 (kamera external saya)</description>
+    </item>
+    
+    <item>
+      <title>Cara Install Golang di Linux</title>
+      <link>/posts/cara-install-golang-di-linux/</link>
+      <pubDate>Tue, 30 Jul 2019 00:13:29 +0700</pubDate>
+      
+      <guid>/posts/cara-install-golang-di-linux/</guid>
+      <description> My Device  Linux Ubuntu 14.04  Run this command ! cd ~ wget https://dl.google.com/go/go1.13.8.linux-amd64.tar.gz tar -xf go1.13.8.linux-amd64.tar.gz export GOROOT=&amp;quot;/home/$USER/go&amp;quot; export GOPATH=&amp;quot;/home/$USER/go/packages&amp;quot; export PATH=$PATH:$GOROOT/bin:$GOPATH/bin # puts export line to your ~/.bashrc or any bashprofile file  THAT&amp;rsquo;S IT By the way, checkout one of best Brian song
+ </description>
+    </item>
+    
+  </channel>
+</rss>

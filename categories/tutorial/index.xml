@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorial on PAP99 - ini blog nya Rubi</title>
+    <link>/categories/tutorial/</link>
+    <description>Recent content in Tutorial on PAP99 - ini blog nya Rubi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Feb 2020 00:13:29 +0700</lastBuildDate>
+    
+	<atom:link href="/categories/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Panduan Mendesain Respon API</title>
+      <link>/posts/panduan-agak-lengkap-mendesain-respon-api/</link>
+      <pubDate>Fri, 21 Feb 2020 00:13:29 +0700</pubDate>
+      
+      <guid>/posts/panduan-agak-lengkap-mendesain-respon-api/</guid>
+      <description>TLDR;
+Untuk private software atau company-only code-share, kalau bisa sesimple mungkin, contoh :
+Incoming chat hanya membawa :
+[&amp;quot;Chat&amp;quot;, {&amp;quot;text&amp;quot;: &amp;quot;hello jean&amp;quot;, &amp;quot;ts&amp;quot;: 1582385032, &amp;quot;sid&amp;quot;: &amp;quot;codenoid&amp;quot;, &amp;quot;rid&amp;quot;: &amp;quot;cj2ngzdvb8nv3b&amp;quot;}]   id room (group/private) id sender text chat timestamp media (hanya kalau perlu)  ya, ASAP (as simple as possible), kalau perlu bikin separator sendiri, jangan pakai json KENAPA ???
+Kalau data yang ditransfer &amp;ldquo;simple&amp;rdquo;, maka otomatis :  Tersampaikan secara lebih cepat Mengirit server/user space Minimalisir unrelatable-data leak Parsing lebih cepat; jadi tidak strest kenaikan gaji 35% anak sudah bisa nyari makan sendiri Membantu meningkatkan ekonomi masyarakat kita  well that&amp;rsquo;s escalated quickly</description>
+    </item>
+    
+    <item>
+      <title>Cara deploy flask dengan gunicorn dan systemd</title>
+      <link>/posts/cara-deploy-flask-dengan-gunicorn-dan-systemd/</link>
+      <pubDate>Mon, 02 Dec 2019 00:13:29 +0700</pubDate>
+      
+      <guid>/posts/cara-deploy-flask-dengan-gunicorn-dan-systemd/</guid>
+      <description>Spesifikasi Software Saya :  Ubuntu 18.04 gunicorn==19.9.0 Flask==1.0.2 Python 3.6.8 Sublime Text (dengan shortcut subl di terminal)  Informasi tentang tech stack Gunicorn adalah ?
+The Gunicorn &amp;ldquo;Green Unicorn&amp;rdquo; is a Python Web Server Gateway Interface HTTP server. It is a pre-fork worker model, ported from Ruby&amp;rsquo;s Unicorn project. The Gunicorn server is broadly compatible with a number of web frameworks, simply implemented, light on server resources and fairly fast.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/posts/panduan-agak-lengkap-mendesain-respon-api/</loc>
+    <lastmod>2020-02-21T00:13:29+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/mencoba-rethink-db/</loc>
+    <lastmod>2019-12-19T11:54:29+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/membuat-authentikasi-tanpa-library-di-flask/</loc>
+    <lastmod>2019-12-03T00:12:45+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/cara-deploy-flask-dengan-gunicorn-dan-systemd/</loc>
+    <lastmod>2019-12-02T00:13:29+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/golang-dan-elixir-sebagai-bahasa/</loc>
+    <lastmod>2019-08-15T00:13:29+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/komparasi-syntax-antara-php-dengan-golang/</loc>
+    <lastmod>2019-08-01T00:13:29+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/membuat-global-keylogger-dengan-golang/</loc>
+    <lastmod>2019-07-30T09:13:29+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/membuat-web-streaming-dengan-golang/</loc>
+    <lastmod>2019-07-30T09:13:29+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/menggunakan-kamera-dengan-golang/</loc>
+    <lastmod>2019-07-30T00:15:29+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
+    <lastmod>2019-07-30T00:13:29+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/cara-install-golang-di-linux/</loc>
+    <lastmod>2019-07-30T00:13:29+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/api/</loc>
+    <lastmod>2020-02-21T00:13:29+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/artikel/</loc>
+    <lastmod>2019-12-19T11:54:29+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/artikel/</loc>
+    <lastmod>2019-12-19T11:54:29+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/camera/</loc>
+    <lastmod>2019-07-30T09:13:29+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2019-12-19T11:54:29+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/elixir/</loc>
+    <lastmod>2019-08-15T00:13:29+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/flask/</loc>
+    <lastmod>2019-12-03T00:12:45+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/golang/</loc>
+    <lastmod>2020-02-21T00:13:29+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/gunicorn/</loc>
+    <lastmod>2019-12-02T00:13:29+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/howto/</loc>
+    <lastmod>2019-07-30T09:13:29+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/howto/</loc>
+    <lastmod>2019-07-30T09:13:29+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/install/</loc>
+    <lastmod>2019-07-30T00:13:29+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/kamera/</loc>
+    <lastmod>2019-07-30T00:15:29+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/keyboard/</loc>
+    <lastmod>2019-07-30T09:13:29+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/keylogger/</loc>
+    <lastmod>2019-07-30T09:13:29+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/language/</loc>
+    <lastmod>2019-08-15T00:13:29+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-02-21T00:13:29+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/php/</loc>
+    <lastmod>2019-08-01T00:13:29+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2020-02-21T00:13:29+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/proglang/</loc>
+    <lastmod>2019-08-01T00:13:29+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/programming-language/</loc>
+    <lastmod>2019-08-01T00:13:29+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/security/</loc>
+    <lastmod>2019-12-03T00:12:45+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/setup/</loc>
+    <lastmod>2019-07-30T00:13:29+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/story/</loc>
+    <lastmod>2019-12-03T00:12:45+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/systemd/</loc>
+    <lastmod>2019-12-02T00:13:29+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-02-21T00:13:29+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tutorial/</loc>
+    <lastmod>2020-02-21T00:13:29+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/tutorial/</loc>
+    <lastmod>2020-02-21T00:13:29+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/video/</loc>
+    <lastmod>2019-07-30T09:13:29+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

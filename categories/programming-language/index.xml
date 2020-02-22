@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming Language on PAP99 - ini blog nya Rubi</title>
+    <link>/categories/programming-language/</link>
+    <description>Recent content in Programming Language on PAP99 - ini blog nya Rubi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Aug 2019 00:13:29 +0700</lastBuildDate>
+    
+	<atom:link href="/categories/programming-language/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Komparasi Syntax Antara PHP Dengan Golang</title>
+      <link>/posts/komparasi-syntax-antara-php-dengan-golang/</link>
+      <pubDate>Thu, 01 Aug 2019 00:13:29 +0700</pubDate>
+      
+      <guid>/posts/komparasi-syntax-antara-php-dengan-golang/</guid>
+      <description>Menggunakan OS Ubuntu, disini aq akan melakukan komparasi syntax antara golang dengan php
+Installasi Golang :
+cd ~ wget https://dl.google.com/go/go1.12.7.linux-amd64.tar.gz tar -xf go1.12.7.linux-amd64.tar.gz export GOROOT=&amp;quot;/home/$USER/go&amp;quot; export GOPATH=&amp;quot;/home/$USER/go/packages&amp;quot; export PATH=$PATH:$GOROOT/bin:$GOPATH/bin # puts export line to your ~/.bashrc or any bashprofile file # please change $USER with your static username value  PHP :
+sudo apt install php7.2-cli / *  Hello World ! Golang :
+package main import &amp;quot;fmt&amp;quot; func main() { fmt.</description>
+    </item>
+    
+  </channel>
+</rss>

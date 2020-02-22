@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gunicorn on PAP99 - ini blog nya Rubi</title>
+    <link>/tags/gunicorn/</link>
+    <description>Recent content in Gunicorn on PAP99 - ini blog nya Rubi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 Dec 2019 00:13:29 +0700</lastBuildDate>
+    
+	<atom:link href="/tags/gunicorn/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cara deploy flask dengan gunicorn dan systemd</title>
+      <link>/posts/cara-deploy-flask-dengan-gunicorn-dan-systemd/</link>
+      <pubDate>Mon, 02 Dec 2019 00:13:29 +0700</pubDate>
+      
+      <guid>/posts/cara-deploy-flask-dengan-gunicorn-dan-systemd/</guid>
+      <description>Spesifikasi Software Saya :  Ubuntu 18.04 gunicorn==19.9.0 Flask==1.0.2 Python 3.6.8 Sublime Text (dengan shortcut subl di terminal)  Informasi tentang tech stack Gunicorn adalah ?
+The Gunicorn &amp;ldquo;Green Unicorn&amp;rdquo; is a Python Web Server Gateway Interface HTTP server. It is a pre-fork worker model, ported from Ruby&amp;rsquo;s Unicorn project. The Gunicorn server is broadly compatible with a number of web frameworks, simply implemented, light on server resources and fairly fast.</description>
+    </item>
+    
+  </channel>
+</rss>

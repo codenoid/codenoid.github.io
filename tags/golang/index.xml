@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Golang on PAP99 - ini blog nya Rubi</title>
+    <link>/tags/golang/</link>
+    <description>Recent content in Golang on PAP99 - ini blog nya Rubi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Feb 2020 00:13:29 +0700</lastBuildDate>
+    
+	<atom:link href="/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Panduan Mendesain Respon API</title>
+      <link>/posts/panduan-agak-lengkap-mendesain-respon-api/</link>
+      <pubDate>Fri, 21 Feb 2020 00:13:29 +0700</pubDate>
+      
+      <guid>/posts/panduan-agak-lengkap-mendesain-respon-api/</guid>
+      <description>TLDR;
+Untuk private software atau company-only code-share, kalau bisa sesimple mungkin, contoh :
+Incoming chat hanya membawa :
+[&amp;quot;Chat&amp;quot;, {&amp;quot;text&amp;quot;: &amp;quot;hello jean&amp;quot;, &amp;quot;ts&amp;quot;: 1582385032, &amp;quot;sid&amp;quot;: &amp;quot;codenoid&amp;quot;, &amp;quot;rid&amp;quot;: &amp;quot;cj2ngzdvb8nv3b&amp;quot;}]   id room (group/private) id sender text chat timestamp media (hanya kalau perlu)  ya, ASAP (as simple as possible), kalau perlu bikin separator sendiri, jangan pakai json KENAPA ???
+Kalau data yang ditransfer &amp;ldquo;simple&amp;rdquo;, maka otomatis :  Tersampaikan secara lebih cepat Mengirit server/user space Minimalisir unrelatable-data leak Parsing lebih cepat; jadi tidak strest kenaikan gaji 35% anak sudah bisa nyari makan sendiri Membantu meningkatkan ekonomi masyarakat kita  well that&amp;rsquo;s escalated quickly</description>
+    </item>
+    
+    <item>
+      <title>Golang dan elixir sebagai bahasa pemrograman pertama saya</title>
+      <link>/posts/golang-dan-elixir-sebagai-bahasa/</link>
+      <pubDate>Thu, 15 Aug 2019 00:13:29 +0700</pubDate>
+      
+      <guid>/posts/golang-dan-elixir-sebagai-bahasa/</guid>
+      <description>So it has been a while when i first time giving try to Elixir, a language that give me joy when coding with a complex of software flow and structure, now i&amp;rsquo;m sad i don&amp;rsquo;t know why, because i play some beethoven song,
+then Go, i don&amp;rsquo;t know, Go is something like my &amp;ldquo;php&amp;rdquo; replacement, because i love php (in the past) but php doesn&amp;rsquo;t teach me about static typing, channeling, multi threading, more likely just there is controller, model and view.</description>
+    </item>
+    
+    <item>
+      <title>Komparasi Syntax Antara PHP Dengan Golang</title>
+      <link>/posts/komparasi-syntax-antara-php-dengan-golang/</link>
+      <pubDate>Thu, 01 Aug 2019 00:13:29 +0700</pubDate>
+      
+      <guid>/posts/komparasi-syntax-antara-php-dengan-golang/</guid>
+      <description>Menggunakan OS Ubuntu, disini aq akan melakukan komparasi syntax antara golang dengan php
+Installasi Golang :
+cd ~ wget https://dl.google.com/go/go1.12.7.linux-amd64.tar.gz tar -xf go1.12.7.linux-amd64.tar.gz export GOROOT=&amp;quot;/home/$USER/go&amp;quot; export GOPATH=&amp;quot;/home/$USER/go/packages&amp;quot; export PATH=$PATH:$GOROOT/bin:$GOPATH/bin # puts export line to your ~/.bashrc or any bashprofile file # please change $USER with your static username value  PHP :
+sudo apt install php7.2-cli / *  Hello World ! Golang :
+package main import &amp;quot;fmt&amp;quot; func main() { fmt.</description>
+    </item>
+    
+    <item>
+      <title>Cara Install Golang di Linux</title>
+      <link>/posts/cara-install-golang-di-linux/</link>
+      <pubDate>Tue, 30 Jul 2019 00:13:29 +0700</pubDate>
+      
+      <guid>/posts/cara-install-golang-di-linux/</guid>
+      <description> My Device  Linux Ubuntu 14.04  Run this command ! cd ~ wget https://dl.google.com/go/go1.13.8.linux-amd64.tar.gz tar -xf go1.13.8.linux-amd64.tar.gz export GOROOT=&amp;quot;/home/$USER/go&amp;quot; export GOPATH=&amp;quot;/home/$USER/go/packages&amp;quot; export PATH=$PATH:$GOROOT/bin:$GOPATH/bin # puts export line to your ~/.bashrc or any bashprofile file  THAT&amp;rsquo;S IT By the way, checkout one of best Brian song
+ </description>
+    </item>
+    
+  </channel>
+</rss>

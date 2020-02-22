@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Story on PAP99 - ini blog nya Rubi</title>
+    <link>/categories/story/</link>
+    <description>Recent content in Story on PAP99 - ini blog nya Rubi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Dec 2019 00:12:45 +0700</lastBuildDate>
+    
+	<atom:link href="/categories/story/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Membuat authentikasi tanpa library di flask</title>
+      <link>/posts/membuat-authentikasi-tanpa-library-di-flask/</link>
+      <pubDate>Tue, 03 Dec 2019 00:12:45 +0700</pubDate>
+      
+      <guid>/posts/membuat-authentikasi-tanpa-library-di-flask/</guid>
+      <description>Ok, sekarang kita bikin authentikasi tanpa library apapun, hanya bermodal cookie dan @before_request method
+Kode &amp;amp; Penjelasan from flask import Flask, request, redirect from flask import make_response # package ini digunakan untuk membuat random uuid # yang mana random uuid tersebut akan digunakan untuk # cookie import uuid app = Flask(__name__) # digunakan untuk menyimpan cookie yang telah login AUTH_STORAGE = {} login_view = &amp;quot;&amp;quot;&amp;quot; &amp;lt;form method=&amp;quot;post&amp;quot; action=&amp;quot;&amp;quot;&amp;gt; &amp;lt;input type=&amp;quot;text&amp;quot; name=&amp;quot;user&amp;quot;&amp;gt; &amp;lt;button type=&amp;quot;submit&amp;quot;&amp;gt;Login&amp;lt;/button&amp;gt; &amp;lt;/form&amp;gt; &amp;quot;&amp;quot;&amp;quot; index_view = &amp;quot;&amp;quot;&amp;quot; Berhasil Login !</description>
+    </item>
+    
+    <item>
+      <title>Golang dan elixir sebagai bahasa pemrograman pertama saya</title>
+      <link>/posts/golang-dan-elixir-sebagai-bahasa/</link>
+      <pubDate>Thu, 15 Aug 2019 00:13:29 +0700</pubDate>
+      
+      <guid>/posts/golang-dan-elixir-sebagai-bahasa/</guid>
+      <description>So it has been a while when i first time giving try to Elixir, a language that give me joy when coding with a complex of software flow and structure, now i&amp;rsquo;m sad i don&amp;rsquo;t know why, because i play some beethoven song,
+then Go, i don&amp;rsquo;t know, Go is something like my &amp;ldquo;php&amp;rdquo; replacement, because i love php (in the past) but php doesn&amp;rsquo;t teach me about static typing, channeling, multi threading, more likely just there is controller, model and view.</description>
+    </item>
+    
+  </channel>
+</rss>

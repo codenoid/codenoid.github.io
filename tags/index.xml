@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on PAP99 - ini blog nya Rubi</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on PAP99 - ini blog nya Rubi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Feb 2020 00:13:29 +0700</lastBuildDate>
+    
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Api</title>
+      <link>/tags/api/</link>
+      <pubDate>Fri, 21 Feb 2020 00:13:29 +0700</pubDate>
+      
+      <guid>/tags/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Artikel</title>
+      <link>/tags/artikel/</link>
+      <pubDate>Thu, 19 Dec 2019 11:54:29 +0700</pubDate>
+      
+      <guid>/tags/artikel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Camera</title>
+      <link>/tags/camera/</link>
+      <pubDate>Tue, 30 Jul 2019 09:13:29 +0700</pubDate>
+      
+      <guid>/tags/camera/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Elixir</title>
+      <link>/tags/elixir/</link>
+      <pubDate>Thu, 15 Aug 2019 00:13:29 +0700</pubDate>
+      
+      <guid>/tags/elixir/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flask</title>
+      <link>/tags/flask/</link>
+      <pubDate>Tue, 03 Dec 2019 00:12:45 +0700</pubDate>
+      
+      <guid>/tags/flask/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Golang</title>
+      <link>/tags/golang/</link>
+      <pubDate>Fri, 21 Feb 2020 00:13:29 +0700</pubDate>
+      
+      <guid>/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gunicorn</title>
+      <link>/tags/gunicorn/</link>
+      <pubDate>Mon, 02 Dec 2019 00:13:29 +0700</pubDate>
+      
+      <guid>/tags/gunicorn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Howto</title>
+      <link>/tags/howto/</link>
+      <pubDate>Tue, 30 Jul 2019 09:13:29 +0700</pubDate>
+      
+      <guid>/tags/howto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Install</title>
+      <link>/tags/install/</link>
+      <pubDate>Tue, 30 Jul 2019 00:13:29 +0700</pubDate>
+      
+      <guid>/tags/install/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kamera</title>
+      <link>/tags/kamera/</link>
+      <pubDate>Tue, 30 Jul 2019 00:15:29 +0700</pubDate>
+      
+      <guid>/tags/kamera/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Keyboard</title>
+      <link>/tags/keyboard/</link>
+      <pubDate>Tue, 30 Jul 2019 09:13:29 +0700</pubDate>
+      
+      <guid>/tags/keyboard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Keylogger</title>
+      <link>/tags/keylogger/</link>
+      <pubDate>Tue, 30 Jul 2019 09:13:29 +0700</pubDate>
+      
+      <guid>/tags/keylogger/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Language</title>
+      <link>/tags/language/</link>
+      <pubDate>Thu, 15 Aug 2019 00:13:29 +0700</pubDate>
+      
+      <guid>/tags/language/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Php</title>
+      <link>/tags/php/</link>
+      <pubDate>Thu, 01 Aug 2019 00:13:29 +0700</pubDate>
+      
+      <guid>/tags/php/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proglang</title>
+      <link>/tags/proglang/</link>
+      <pubDate>Thu, 01 Aug 2019 00:13:29 +0700</pubDate>
+      
+      <guid>/tags/proglang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security</title>
+      <link>/tags/security/</link>
+      <pubDate>Tue, 03 Dec 2019 00:12:45 +0700</pubDate>
+      
+      <guid>/tags/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Systemd</title>
+      <link>/tags/systemd/</link>
+      <pubDate>Mon, 02 Dec 2019 00:13:29 +0700</pubDate>
+      
+      <guid>/tags/systemd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tutorial</title>
+      <link>/tags/tutorial/</link>
+      <pubDate>Fri, 21 Feb 2020 00:13:29 +0700</pubDate>
+      
+      <guid>/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Video</title>
+      <link>/tags/video/</link>
+      <pubDate>Tue, 30 Jul 2019 09:13:29 +0700</pubDate>
+      
+      <guid>/tags/video/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

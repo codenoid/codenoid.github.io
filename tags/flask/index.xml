@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Flask on PAP99 - ini blog nya Rubi</title>
+    <link>/tags/flask/</link>
+    <description>Recent content in Flask on PAP99 - ini blog nya Rubi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Dec 2019 00:12:45 +0700</lastBuildDate>
+    
+	<atom:link href="/tags/flask/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Membuat authentikasi tanpa library di flask</title>
+      <link>/posts/membuat-authentikasi-tanpa-library-di-flask/</link>
+      <pubDate>Tue, 03 Dec 2019 00:12:45 +0700</pubDate>
+      
+      <guid>/posts/membuat-authentikasi-tanpa-library-di-flask/</guid>
+      <description>Ok, sekarang kita bikin authentikasi tanpa library apapun, hanya bermodal cookie dan @before_request method
+Kode &amp;amp; Penjelasan from flask import Flask, request, redirect from flask import make_response # package ini digunakan untuk membuat random uuid # yang mana random uuid tersebut akan digunakan untuk # cookie import uuid app = Flask(__name__) # digunakan untuk menyimpan cookie yang telah login AUTH_STORAGE = {} login_view = &amp;quot;&amp;quot;&amp;quot; &amp;lt;form method=&amp;quot;post&amp;quot; action=&amp;quot;&amp;quot;&amp;gt; &amp;lt;input type=&amp;quot;text&amp;quot; name=&amp;quot;user&amp;quot;&amp;gt; &amp;lt;button type=&amp;quot;submit&amp;quot;&amp;gt;Login&amp;lt;/button&amp;gt; &amp;lt;/form&amp;gt; &amp;quot;&amp;quot;&amp;quot; index_view = &amp;quot;&amp;quot;&amp;quot; Berhasil Login !</description>
+    </item>
+    
+    <item>
+      <title>Cara deploy flask dengan gunicorn dan systemd</title>
+      <link>/posts/cara-deploy-flask-dengan-gunicorn-dan-systemd/</link>
+      <pubDate>Mon, 02 Dec 2019 00:13:29 +0700</pubDate>
+      
+      <guid>/posts/cara-deploy-flask-dengan-gunicorn-dan-systemd/</guid>
+      <description>Spesifikasi Software Saya :  Ubuntu 18.04 gunicorn==19.9.0 Flask==1.0.2 Python 3.6.8 Sublime Text (dengan shortcut subl di terminal)  Informasi tentang tech stack Gunicorn adalah ?
+The Gunicorn &amp;ldquo;Green Unicorn&amp;rdquo; is a Python Web Server Gateway Interface HTTP server. It is a pre-fork worker model, ported from Ruby&amp;rsquo;s Unicorn project. The Gunicorn server is broadly compatible with a number of web frameworks, simply implemented, light on server resources and fairly fast.</description>
+    </item>
+    
+  </channel>
+</rss>

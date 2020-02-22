@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on PAP99 - ini blog nya Rubi</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on PAP99 - ini blog nya Rubi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Dec 2019 11:54:29 +0700</lastBuildDate>
+    
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Artikel</title>
+      <link>/categories/artikel/</link>
+      <pubDate>Thu, 19 Dec 2019 11:54:29 +0700</pubDate>
+      
+      <guid>/categories/artikel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Howto</title>
+      <link>/categories/howto/</link>
+      <pubDate>Tue, 30 Jul 2019 09:13:29 +0700</pubDate>
+      
+      <guid>/categories/howto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programming Language</title>
+      <link>/categories/programming-language/</link>
+      <pubDate>Thu, 01 Aug 2019 00:13:29 +0700</pubDate>
+      
+      <guid>/categories/programming-language/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Setup</title>
+      <link>/categories/setup/</link>
+      <pubDate>Tue, 30 Jul 2019 00:13:29 +0700</pubDate>
+      
+      <guid>/categories/setup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Story</title>
+      <link>/categories/story/</link>
+      <pubDate>Tue, 03 Dec 2019 00:12:45 +0700</pubDate>
+      
+      <guid>/categories/story/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tutorial</title>
+      <link>/categories/tutorial/</link>
+      <pubDate>Fri, 21 Feb 2020 00:13:29 +0700</pubDate>
+      
+      <guid>/categories/tutorial/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
