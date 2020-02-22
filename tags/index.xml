@@ -39,6 +39,15 @@
     </item>
     
     <item>
+      <title>Database</title>
+      <link>/tags/database/</link>
+      <pubDate>Fri, 21 Feb 2020 00:14:29 +0700</pubDate>
+      
+      <guid>/tags/database/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Elixir</title>
       <link>/tags/elixir/</link>
       <pubDate>Thu, 15 Aug 2019 00:13:29 +0700</pubDate>
@@ -167,7 +176,7 @@
     <item>
       <title>Tutorial</title>
       <link>/tags/tutorial/</link>
-      <pubDate>Fri, 21 Feb 2020 00:13:29 +0700</pubDate>
+      <pubDate>Fri, 21 Feb 2020 00:14:29 +0700</pubDate>
       
       <guid>/tags/tutorial/</guid>
       <description></description>

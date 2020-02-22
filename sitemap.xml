@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/posts/panduan-lengkap-mendesain-row-document-di-schemaless-database/</loc>
+    <lastmod>2020-02-21T00:14:29+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/posts/panduan-agak-lengkap-mendesain-respon-api/</loc>
     <lastmod>2020-02-21T00:13:29+07:00</lastmod>
   </url>
@@ -88,6 +93,12 @@
   </url>
   
   <url>
+    <loc>/tags/database/</loc>
+    <lastmod>2020-02-21T00:14:29+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/elixir/</loc>
     <lastmod>2019-08-15T00:13:29+07:00</lastmod>
     <priority>0</priority>
@@ -155,7 +166,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-02-21T00:13:29+07:00</lastmod>
+    <lastmod>2020-02-21T00:14:29+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -167,7 +178,7 @@
   
   <url>
     <loc>/posts/</loc>
-    <lastmod>2020-02-21T00:13:29+07:00</lastmod>
+    <lastmod>2020-02-21T00:14:29+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -215,13 +226,13 @@
   
   <url>
     <loc>/tags/tutorial/</loc>
-    <lastmod>2020-02-21T00:13:29+07:00</lastmod>
+    <lastmod>2020-02-21T00:14:29+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/tutorial/</loc>
-    <lastmod>2020-02-21T00:13:29+07:00</lastmod>
+    <lastmod>2020-02-21T00:14:29+07:00</lastmod>
     <priority>0</priority>
   </url>
   

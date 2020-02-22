@@ -3,8 +3,8 @@
 <head>
   
   <meta charset="utf-8">
-  <title>PAP99 - ini blog nya Rubi</title>
-  <meta name="description" content="PAP99 - ini blog nya Rubi">
+  <title>Panduan lengkap mendesain row/document pada schemaless database</title>
+  <meta name="description" content="Panduan lengkap mendesain row/document pada schemaless database">
   <meta name="author" content="">
   
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -356,8 +356,6 @@ code, kbd, pre, samp {
 
   
   
-  <link href="/index.xml" rel="alternate" type="application/rss+xml" title="PAP99 - ini blog nya Rubi Feed" />
-  
 
   <meta name="generator" content="Hugo 0.40.1" />
 
@@ -397,30 +395,20 @@ code, kbd, pre, samp {
 
 <div class="pure-g">
   <div class="pure-u-1-24 pure-u-md-5-24"></div>
-	<div class="pure-u-11-12 pure-u-md-7-12">
-	<div class="post-content">
-	
-	  <p class="posts-name">Recent posts:</p>
+  <div class="pure-u-11-12 pure-u-md-7-12">
+    <div class="post">
 
-	  <ul class="posts">
-		
-		
-		
-		<li>
-		  
-		  <a class="post-list" href="/posts/panduan-lengkap-mendesain-row-document-di-schemaless-database/">Panduan lengkap mendesain row/document pada schemaless database</a>
-
-      <p class="footnote">
-        <time datetime="2020-02-21 00:14:29 &#43;0700 WIB">
-          
-            02-21-2020
-          
-        </time>
-
+      <div class="post-title">
+        <p class="footnote">
+          <time datetime="2020-02-21 00:14:29 &#43;0700 WIB">
+            
+              02-21-2020
+            
+          </time>
+        
         
         |
         
-
         
         tags: [ <a href="/tags/tutorial">tutorial</a> <a href="/tags/database">database</a> ]
         
@@ -429,327 +417,126 @@ code, kbd, pre, samp {
         categories: [ <a href="/categories/tutorial">tutorial</a> ]
         
 
-        
-
-        Written By : codenoid
-      </p>
-    </li>
-    
-    
-		
-		<li>
-		  
-		  <a class="post-list" href="/posts/panduan-agak-lengkap-mendesain-respon-api/">Panduan Mendesain Respon API</a>
-
-      <p class="footnote">
-        <time datetime="2020-02-21 00:13:29 &#43;0700 WIB">
-          
-            02-21-2020
-          
-        </time>
-
-        
         |
-        
-
-        
-        tags: [ <a href="/tags/api">api</a> <a href="/tags/golang">golang</a> <a href="/tags/tutorial">tutorial</a> ]
-        
-
-        
-        categories: [ <a href="/categories/tutorial">tutorial</a> ]
-        
-
-        
 
         Written By : codenoid
-      </p>
-    </li>
-    
-    
-		
-		<li>
-		  
-		  <a class="post-list" href="/posts/mencoba-rethink-db/">Mencoba RethinkDB untuk realtime transaction</a>
-
-      <p class="footnote">
-        <time datetime="2019-12-19 11:54:29 &#43;0700 WIB">
-          
-            12-19-2019
-          
-        </time>
-
-        
-        |
-        
-
-        
-        tags: [ <a href="/tags/artikel">artikel</a> ]
-        
-
-        
-        categories: [ <a href="/categories/artikel">artikel</a> ]
-        
 
         
 
-        Written By : codenoid
-      </p>
-    </li>
-    
-    
-		
-		<li>
-		  
-		  <a class="post-list" href="/posts/membuat-authentikasi-tanpa-library-di-flask/">Membuat authentikasi tanpa library di flask</a>
+        </p>
 
-      <p class="footnote">
-        <time datetime="2019-12-03 00:12:45 &#43;0700 WIB">
-          
-            12-03-2019
-          
-        </time>
+        <h1>Panduan lengkap mendesain row/document pada schemaless database</h1>
+      </div>
 
+      <div class="post-content">
         
-        |
         
 
-        
-        tags: [ <a href="/tags/flask">flask</a> <a href="/tags/security">security</a> <a href="/tags/tutorial">tutorial</a> ]
-        
+<p><img src="https://miro.medium.com/max/750/0*NC_bMa3n-t_pPjEW.jpg" alt="taken from https://miro.medium.com/max/750/0*NC_bMa3n-t_pPjEW.jpg" /></p>
 
-        
-        categories: [ <a href="/categories/story">story</a> ]
-        
+<p><em>Ditulis berdasar pengalaman menggunakan SQLdb, MongoDB &amp; Couchbase</em></p>
 
-        
+<p>catatan :</p>
 
-        Written By : codenoid
-      </p>
-    </li>
-    
-    
-		
-		<li>
-		  
-		  <a class="post-list" href="/posts/cara-deploy-flask-dengan-gunicorn-dan-systemd/">Cara deploy flask dengan gunicorn dan systemd</a>
+<ul>
+<li>collection (mongodb) artinya table dalam &ldquo;sql&rdquo;-db</li>
+<li>document (mongodb) artinya row dalam &ldquo;sql&rdquo;-db</li>
+<li>key (bson mongodb) artinya column dalam &ldquo;sql&rdquo;-db</li>
+</ul>
 
-      <p class="footnote">
-        <time datetime="2019-12-02 00:13:29 &#43;0700 WIB">
-          
-            12-02-2019
-          
-        </time>
+<h1 id="tldr">TLDR;</h1>
 
-        
-        |
-        
+<h3 id="1-gunakan-cara-pikir-yang-sama-untuk-table">1. Gunakan cara pikir yang sama untuk table</h3>
 
-        
-        tags: [ <a href="/tags/gunicorn">gunicorn</a> <a href="/tags/flask">flask</a> <a href="/tags/systemd">systemd</a> <a href="/tags/tutorial">tutorial</a> ]
-        
+<p>Dalam artian, tetap pergunakan collection ataupun object type, <em>join</em> yang kamu lakukan di sql-db bisa dilakukan juga di schema-free database, jadi contohnya jika di mysql kamu punya table ini :</p>
 
-        
-        categories: [ <a href="/categories/tutorial">tutorial</a> ]
-        
+<ul>
+<li>table <code>kelas</code></li>
+<li>table <code>murid</code></li>
+</ul>
 
-        
+<p>maka kamu bisa juga punya table yang sama di schema-free database (bahkan di Couchbase yang menjadi pembeda table adalah value si row nya sendiri)</p>
 
-        Written By : codenoid
-      </p>
-    </li>
-    
-    
-		
-		<li>
-		  
-		  <a class="post-list" href="/posts/golang-dan-elixir-sebagai-bahasa/">Golang dan elixir sebagai bahasa pemrograman pertama saya</a>
+<h3 id="2-tetap-independent">2. Tetap Independent</h3>
 
-      <p class="footnote">
-        <time datetime="2019-08-15 00:13:29 &#43;0700 WIB">
-          
-            08-15-2019
-          
-        </time>
+<p>Jangan mentang2 kamu pake schema-free database, kamu seenaknya masukin data murid ke document yang sama dengan kelas, <em>nggak gitu bambang</em>, jadi datanya tetap terpisah</p>
 
-        
-        |
-        
+<p>contoh salah ❌ :</p>
 
-        
-        tags: [ <a href="/tags/elixir">elixir</a> <a href="/tags/language">language</a> <a href="/tags/golang">golang</a> <a href="/tags/tutorial">tutorial</a> ]
-        
+<pre><code class="language-json">// pada collection &quot;kelas&quot;
+{
+    &quot;id_kelas&quot;: &quot;12E&quot;,
+    &quot;wali_kelas&quot;: &quot;Drs. Sukontolegowo&quot;,
+    &quot;murid&quot;: [
+        {
+            &quot;nama&quot;: &quot;Dina nurzeha&quot;,
+            &quot;id_murid&quot;: &quot;666&quot;,
+        },
+        {
+            &quot;nama&quot;: &quot;Siska e nya tiga (biasa aja)&quot;,
+            &quot;id_murid&quot;: &quot;599&quot;,
+        },
+        {
+            &quot;nama&quot;: &quot;Ujang NgeBucin&quot;,
+            &quot;id_murid&quot;: &quot;512&quot;,
+        }
+    ] // atau murid: [&quot;nomor_induk&quot;, &quot;nomor_induk&quot;, &quot;nomor_induk&quot;]
+}
+</code></pre>
 
-        
-        categories: [ <a href="/categories/story">story</a> ]
-        
+<p><strong>DON&rsquo;T!</strong>, it&rsquo;s complicated, dan kenapa desain database diatas <strong>BURUK !!!</strong> ?</p>
 
-        
+<ol>
+<li>Terkadang proses CRUD lebih complicated, serius deh :)</li>
+<li>Data relasi <code>murid</code>-<code>kelas</code> pasti akan dipakai &ldquo;ditempat&rdquo; lain, jadi lebih baik murid dipisah</li>
+<li><strong>SELAMAT</strong> ANDA TELAH MEMPERSULIT DIRI ANDA SENDIRI !!!</li>
+</ol>
 
-        Written By : codenoid
-      </p>
-    </li>
-    
-    
-		
-		<li>
-		  
-		  <a class="post-list" href="/posts/komparasi-syntax-antara-php-dengan-golang/">Komparasi Syntax Antara PHP Dengan Golang</a>
+<p>contoh yang saya sarankan ✅ :</p>
 
-      <p class="footnote">
-        <time datetime="2019-08-01 00:13:29 &#43;0700 WIB">
-          
-            08-01-2019
-          
-        </time>
+<pre><code class="language-json">// pada collection &quot;kelas&quot;
+{
+    &quot;id_kelas&quot;: &quot;12E&quot;,
+    &quot;wali_kelas&quot;: &quot;Drs. Sukontolegowo&quot;
+}
 
-        
-        |
-        
+// pada collection &quot;murid&quot;
+{
+    &quot;nama&quot;: &quot;Ujang NgeBucin&quot;,
+    &quot;id_murid&quot;: &quot;512&quot;,
+}
 
-        
-        tags: [ <a href="/tags/proglang">proglang</a> <a href="/tags/php">php</a> <a href="/tags/golang">golang</a> ]
-        
+// pada collection &quot;murid_kelas&quot;
+{
+    &quot;id_kelas&quot;: &quot;12E&quot;,
+    &quot;id_murid&quot;: &quot;512&quot;,
+}
+</code></pre>
 
-        
-        categories: [ <a href="/categories/programming-language">programming-language</a> ]
-        
+<p>kenapa dipisah ? karena setiap collection (pada kasus ini) <strong>pasti</strong> punya lebih dari 1 cara query (dan punya lebih dari 1 tujuan penggunaan)</p>
 
-        
+<p><strong>kuncinya :</strong></p>
 
-        Written By : codenoid
-      </p>
-    </li>
-    
-    
-		
-		<li>
-		  
-		  <a class="post-list" href="/posts/membuat-global-keylogger-dengan-golang/">Membuat Global KeyLogger Dengan Golang</a>
+<blockquote>
+<p>Data[1] yang berada disebuah dokumen yang berkemungkinan diquery tanpa key lainnya, lebih baik dipisah collection nya</p>
 
-      <p class="footnote">
-        <time datetime="2019-07-30 09:13:29 &#43;0700 WIB">
-          
-            07-30-2019
-          
-        </time>
+<p>[1] ex: child key, array in document, object in document</p>
+</blockquote>
 
-        
-        |
-        
+<p>^ coba cermati kata2 diatas, iya cermati lagi, nah sekali lagi coba cermati sampai benar2 paham.</p>
 
-        
-        tags: [ <a href="/tags/tutorial">tutorial</a> <a href="/tags/keyboard">keyboard</a> <a href="/tags/keylogger">keylogger</a> <a href="/tags/howto">howto</a> ]
-        
+<h3 id="3-tetap-jaga-konsistensi-document-style">3. Tetap Jaga Konsistensi Document Style</h3>
 
-        
-        categories: [ <a href="/categories/howto">howto</a> ]
-        
+<p>balik lagi, mentang2 pakai schema-free database, jangan seenaknya ngotak ngatik key di document, sebagai contoh, karena si <code>murid</code> belum mengisi tanggal lahir, maka tidak ada key <code>tanggal_lahir</code> di document nya, ga harus, tapi alangkah lebih baik jika ada key nya, dan karena ini juga kemunkinan meminimalisir masalah indexing.</p>
 
-        
+<p>paling itu dulu sih, oh iya jangan lupa validasi input nya (validasi style j/bson nya)</p>
 
-        Written By : codenoid
-      </p>
-    </li>
-    
-    
-		
-		<li>
-		  
-		  <a class="post-list" href="/posts/membuat-web-streaming-dengan-golang/">Membuat Live Web Streaming Dengan Golang</a>
+<p>oh iya jangan lupa join <a href="https://t.me/CodeReviewID">@CodeReviewID</a> biar kita bisa review Design Document kamu</p>
 
-      <p class="footnote">
-        <time datetime="2019-07-30 09:13:29 &#43;0700 WIB">
-          
-            07-30-2019
-          
-        </time>
+<p>Ditulis oleh : <a href="https://twitter.com/codenoid_">Rubi (click here)</a></p>
 
-        
-        |
-        
-
-        
-        tags: [ <a href="/tags/tutorial">tutorial</a> <a href="/tags/video">video</a> <a href="/tags/camera">camera</a> <a href="/tags/howto">howto</a> ]
-        
-
-        
-        categories: [ <a href="/categories/howto">howto</a> ]
-        
-
-        
-
-        Written By : codenoid
-      </p>
-    </li>
-    
-    
-		
-		<li>
-		  
-		  <a class="post-list" href="/posts/menggunakan-kamera-dengan-golang/">Menggunakan Kamera Dengan Golang</a>
-
-      <p class="footnote">
-        <time datetime="2019-07-30 00:15:29 &#43;0700 WIB">
-          
-            07-30-2019
-          
-        </time>
-
-        
-        |
-        
-
-        
-        tags: [ <a href="/tags/tutorial">tutorial</a> <a href="/tags/kamera">kamera</a> <a href="/tags/video">video</a> ]
-        
-
-        
-        categories: [ <a href="/categories/howto">howto</a> ]
-        
-
-        
-
-        Written By : codenoid
-      </p>
-    </li>
-    
-    
-		
-    
-		
-		<li>
-		  
-		  <a class="post-list" href="/posts/cara-install-golang-di-linux/">Cara Install Golang di Linux</a>
-
-      <p class="footnote">
-        <time datetime="2019-07-30 00:13:29 &#43;0700 WIB">
-          
-            07-30-2019
-          
-        </time>
-
-        
-        |
-        
-
-        
-        tags: [ <a href="/tags/tutorial">tutorial</a> <a href="/tags/install">install</a> <a href="/tags/golang">golang</a> <a href="/tags/tutorial">tutorial</a> ]
-        
-
-        
-        categories: [ <a href="/categories/setup">setup</a> ]
-        
-
-        
-
-        Written By : codenoid
-      </p>
-    </li>
-    
-    
-    </ul>
-  </div>
+      </div>
+    </div>
   </div>
   <div class="pure-u-1-24 pure-u-md-5-24"></div>
 </div>
@@ -772,8 +559,6 @@ code, kbd, pre, samp {
 
         </ul>
         <a href="#" class="pure-menu-link pull-right" id="gototop-btn">↑↑</a>
-        
-        <a href="/index.xml" class="pure-menu-link pull-right">RSS</a>
         
       </div>
       

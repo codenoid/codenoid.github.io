@@ -6,10 +6,21 @@
     <description>Recent content on PAP99 - ini blog nya Rubi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Feb 2020 00:13:29 +0700</lastBuildDate>
+    <lastBuildDate>Fri, 21 Feb 2020 00:14:29 +0700</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Panduan lengkap mendesain row/document pada schemaless database</title>
+      <link>/posts/panduan-lengkap-mendesain-row-document-di-schemaless-database/</link>
+      <pubDate>Fri, 21 Feb 2020 00:14:29 +0700</pubDate>
+      
+      <guid>/posts/panduan-lengkap-mendesain-row-document-di-schemaless-database/</guid>
+      <description>Ditulis berdasar pengalaman menggunakan SQLdb, MongoDB &amp;amp; Couchbase
+catatan :
+ collection (mongodb) artinya table dalam &amp;ldquo;sql&amp;rdquo;-db document (mongodb) artinya row dalam &amp;ldquo;sql&amp;rdquo;-db key (bson mongodb) artinya column dalam &amp;ldquo;sql&amp;rdquo;-db  TLDR; 1. Gunakan cara pikir yang sama untuk table Dalam artian, tetap pergunakan collection ataupun object type, join yang kamu lakukan di sql-db bisa dilakukan juga di schema-free database, jadi contohnya jika di mysql kamu punya table ini :</description>
+    </item>
     
     <item>
       <title>Panduan Mendesain Respon API</title>
