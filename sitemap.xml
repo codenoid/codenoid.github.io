@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>/posts/panduan-membuat-cv-berdasar-saran-mr-sean-t-allen/</loc>
+    <lastmod>2020-02-21T00:14:29+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/posts/panduan-agak-lengkap-mendesain-respon-api/</loc>
     <lastmod>2020-02-21T00:13:29+07:00</lastmod>
   </url>
@@ -89,6 +94,12 @@
   <url>
     <loc>/categories/</loc>
     <lastmod>2019-12-19T11:54:29+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/curriculum-vitae/</loc>
+    <lastmod>2020-02-21T00:14:29+07:00</lastmod>
     <priority>0</priority>
   </url>
   
